@@ -1,0 +1,29 @@
+--- #YAML:1.0
+name:               Email-Send
+version:            2.198
+abstract:           Simply Sending Email
+author:
+    - Casey West <casey@geeknest.com>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Email::Address:     1.80
+    Email::Simple:      1.92
+    File::Spec:         0
+    Module::Pluggable:  2.97
+    Return::Value:      1.28
+    Scalar::Util:       1.02
+    Symbol:             0.00
+    Test::More:         0.47
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.50
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
